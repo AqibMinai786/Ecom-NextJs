@@ -1,6 +1,6 @@
 "use client";
 import axios from "axios";
-import Link from "next/link";
+// import Link from "next/link";
 import {toast} from "react-hot-toast";
 import {useRouter} from "next/navigation";
 import Card from "@/components/card";
@@ -41,8 +41,8 @@ export default function ProfilePage() {
         fetchProd()
     },[])
 
-    const handleclick = () =>{
-        router.push("/profile/cart");
+    // const handleclick = () =>{
+    //     router.push("/profile/cart");
 
 }
 
