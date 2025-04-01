@@ -41,10 +41,10 @@ export default function ProfilePage() {
         fetchProd()
     },[])
 
-    // const handleclick = () =>{
-    //     router.push("/profile/cart");
+//     const handleclick = () =>{
+//         router.push("/profile/cart");
 
-}
+// }
 
     return (
         
