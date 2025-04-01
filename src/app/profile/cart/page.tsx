@@ -24,6 +24,7 @@ export default function Cart() {
 
     return (
         <div className="p-4">
+            <br /><br /><br/>
             <h2 className="text-xl text-white text-center font-serif">Your Cart</h2>
 
             {cartItems.length === 0 ? (

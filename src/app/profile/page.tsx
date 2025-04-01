@@ -49,7 +49,7 @@ export default function ProfilePage() {
     return (
         
         < >
-
+<br /><br /><br />
         <div>
             <h6 className="text-white text-3xl font-bold font-serif text-center p-4 m-4 ">Fashionkart</h6>
             <h1 className="text-center text-gray-400 font-serif font-light">Fashion starts here</h1>
