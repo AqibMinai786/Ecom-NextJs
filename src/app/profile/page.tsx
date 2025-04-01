@@ -23,7 +23,7 @@ interface Product {
 
 export default function ProfilePage() {
 
-    const router = useRouter();
+    // const router = useRouter();
     
     const [products, setProducts] = useState<Product[]>([]);
 
@@ -52,7 +52,7 @@ export default function ProfilePage() {
 
         <div>
             <h6 className="text-white text-3xl font-bold font-serif text-center p-4 m-4 ">Fashionkart</h6>
-            <h1 className="text-center text-gray-400 font-serif font-light">"~ Fashion starts here"</h1>
+            <h1 className="text-center text-gray-400 font-serif font-light">Fashion starts here</h1>
         </div>
         <div className="grid md:grid-cols-3  gap-4 p-4 m-4">
 
